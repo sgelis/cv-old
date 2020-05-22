@@ -1,0 +1,10 @@
+<?php
+
+define('SECRET_KEY', 'my_super_powerful_key');
+define('SALT', 'my_even_better_salt');
+define('MAIL_HOST', 'smtp.mydomain.com');
+define('MAIL_PORT', 465);
+define('MAIL_USERNAME', 'noreply@mydomain.com');
+define('MAIL_PASSWORD', 'my_super_mail_password');
+define('MAIL_FROM', MAIL_USERNAME);
+define('MAIL_TO', 'you@mydomain.com');

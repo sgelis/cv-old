@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CV</title>
+  <link rel="stylesheet" href="css/cv.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arvo|Roboto:300">
+  <meta name="author" content="Sébastien G">
+  <meta name="description" content="Le CV de Sébastien G">
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+  <link rel="manifest" href="./manifest.json">
+  <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="./favicon.ico">
+  <meta name="msapplication-config" content="./browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+<body data-spy="scroll" data-target=".navbar-sgj">
+  <div class="wrapper container fixed-navbar">
+    <!-- Navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top navbar-sgj">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
+            <span class="sr-only">Montrer/cacher le menu</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-center">
+            <li><a href="#about-me">À propos</a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#experience">Expérience</a></li>
+            <li><a href="#education">Formation</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="cv_sebastien-g.pdf" target="_blank" rel="noreferrer noopener" data-toggle="tooltip" data-placement="bottom" data-container="body" title="Télécharger une version PDF de ce CV."><img src="img/file-pdf.svg" alt="PDF" width="16" height="16"></a></li>
+            <li><a href="https://github.com/seb-ksl/cv/" target="_blank" rel="noreferrer noopener" data-toggle="tooltip" data-placement="bottom" data-container="body" title="Voir le code source de ce CV."><img src="img/github.svg" alt="Code source de ce CV" width="16" height="16"></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="content container">
+      <header>
+        <h1><span>Sébastien G</span></h1>
+        <h2>Développeur</h2>
+        <h3>Jeune développeur amoureux du libre, avec expérience en développement web.<br />Avide d'apprendre !</h3>
+      </header>
+
+      <section class="row section-about">
+        <a id="about-me" class="anchor"></a>
+        <aside class="col-sm-3">
+          <h2>À propos</h2>
+        </aside>
+        <section class="col-sm-9 left-border">
+          <img src="img/me.png" alt="Me" id="img-me" class="img-circle">
+          <p class="text-justify">
+            J'ai, comme beaucoup, commencé à développer en autodidacte pour
+            couvrir mes propres besoins, comprendre, et apprendre. J'ai logiquement choisi
+            de consacrer la seconde moitié de mon travail de thèse
+            à l'apprentissage et la pratique de la bio-informatique. Ce pied à l'étrier m'a
+            incité à compléter ma formation et la sanctionner par un titre
+            professionnel de développeur logiciel, acquis en 2017.
+          </p>
+          <p class="text-justify">
+            J'ai travaillé, depuis, en tant que développeur full-stack et occuppe
+            actuellement ce poste au sein de <a href="https://www.ksd.fr" target="_blank" rel="noreferrer noopener">KSD</a>.
+          </p>
+          <!-- <p class="text-justify">
+            Si vous êtes à la recherche d'un développeur passionné, ayant
+            soif d'apprendre et d'évoluer au sein d'une équipe motivée, laissez-moi
+            un mot <a href="#contact">ici</a> !
+          </p> -->
+        </section> <!-- /about-me right col -->
+      </section> <!-- /about-me -->
+
+      <section class="row section-skills">
+        <a id="skills" class="anchor"></a>
+        <aside class="col-sm-3">
+          <h2>Compétences</h2>
+        </aside>
+        <section class="col-sm-9 left-border">
+          <div class="row">
+            <div class="col-sm-4">
+              <h3>Dév. web</h3>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                  <strong>HTML 5 / CSS 3</strong>
+                </div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                  <strong>Coffeescript</strong>
+                </div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                  <strong>Javascript (ES6)</strong>
+                </div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
+                  <strong>Django 2 et 3</strong>
+                </div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+                  <strong>PHP</strong>
+                </div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
+                  <strong>Drupal 8</strong>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <h3>Dév. logiciel</h3>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                  <strong>Python</strong>
+                </div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                  <strong>Java</strong>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <h3>Admin. sys.</h3>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                  <strong>GNU/Linux</strong>
+                </div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                  <strong>Shell</strong>
+                </div>
+              </div>
+            </div>
+          </div> <!-- /skills right col 1st row -->
+          <div class="row">
+            <div class="col-sm-4">
+              <h3>Bases de données</h3>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                  <strong>PostgreSQL</strong>
+                </div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                  <strong>SQLite</strong>
+                </div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                  <strong>MariaDB/MySQL</strong>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-8 text-center">
+              <h3>Autres</h3>
+              <span class="label label-default">Git/Gitea</span>
+              <span class="label label-default">Jenkins</span>
+              <span class="label label-default">NginX</span>
+              <span class="label label-default">Apache</span>
+              <span class="label label-default">Flask</span>
+              <span class="label label-default">jQuery</span>
+              <span class="label label-default">Grunt</span>
+              <span class="label label-default">Bootstrap</span>
+              <span class="label label-default">Bulma</span>
+              <span class="label label-default">MaterializeCSS</span>
+              <span class="label label-default">R</span>
+            </div>
+          </div> <!-- /skills right col 2nd row -->
+        </section> <!-- /skills right col -->
+      </section> <!-- /skills -->
+
+      <section class="row section-experience">
+        <a id="experience" class="anchor"></a>
+        <aside class="col-sm-3">
+          <h2>Expérience</h2>
+        </aside>
+        <section class="col-sm-9 left-border">
+          <div class="timeline">
+            <ul>
+              <li>
+                <span></span>
+                <div>
+                  <div class="title">Développeur, <a href="https://www.ksd.fr" target="_blank" rel="noreferrer noopener">KSD</a></div>
+                  <div class="info">
+                    <ul>
+                      <li>
+                        <div class="info">Développement full-stack d'applications web Django</div>
+                        <div class="details"><a href="#" data-toggle="modal" data-target="#modal-experience-3-1">Détails</a></div>
+                      </li>
+                      <li>
+                        <div class="info">Développement de logiciels embarqués Python</div>
+                        <div class="details"><a href="#" data-toggle="modal" data-target="#modal-experience-3-2">Détails</a></div>
+                      </li>
+                      <li>
+                        <div class="info">Administration système et réseau (interne et production)</div>
+                        <div class="details"><a href="#" data-toggle="modal" data-target="#modal-experience-3-3">Détails</a></div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <span class="number">
+                  <span>Maintenant</span> <span>Juin 2018</span>
+                </span>
+              </li>
+              <li>
+                <span></span>
+                <div>
+                  <div class="title">Développeur web full-stack PHP, <a href="https://visitit.fr" target="_blank" rel="noreferrer noopener">VisitIT</a></div>
+                  <div class="info">
+                    Fondation <em>from scratch</em> d'un service de création de
+                    visites virtuelles à 360° en ligne dédié aux professionnels
+                    de l'immobilier.
+                  </div>
+                  <div class="details"><a href="#" data-toggle="modal" data-target="#modal-experience-2">Détails</a></div>
+                </div>
+                <span class="number">
+                  <span>Nov. 2017</span> <span>Mar. 2017</span>
+                </span>
+              </li>
+              <li>
+                <div>
+                  <span></span>
+                  <div class="title">Doctorat de microbiologie, <a href="https://www.inrae.fr/" target="_blank" rel="noreferrer noopener">INRA</a></div>
+                  <div class="info">
+                    Mise en place de workflows et développement de logiciels
+                    métier de traitement de données massives.
+                  </div>
+                  <div class="details"><a href="#" data-toggle="modal" data-target="#modal-experience-1">Détails</a></div>
+                </div>
+                <span class="number">
+                  <span>Jan. 2016</span> <span>Nov. 2012</span>
+                </span>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </section> <!-- /experience -->
+
+      <section class="row section-education">
+        <a id="education" class="anchor"></a>
+        <aside class="col-sm-3">
+          <h2>Formation</h2>
+        </aside>
+        <section class="col-sm-9 left-border">
+          <div class="row">
+            <div class="col-sm-2">
+              <span class="label label-primary">2017</span>
+            </div>
+            <div class="col-sm-10">
+              <h3>Titre professionnel de développeur logiciel</h3>
+              <p>Préparé avec le <a href="https://cefii.fr" target="_blank" rel="noreferrer noopener">CEFii</a>.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-2">
+              <span class="label label-primary">2016</span>
+            </div>
+            <div class="col-sm-10">
+              <h3>Doctorat de microbiologie</h3>
+              <p>Décerné par <a href="http://www.agroparistech.fr" target="_blank" rel="noreferrer noopener">AgroParisTech</a>. Travail de thèse dans l'institut MICALIS, <a href="https://www.micalis.fr/Poles-et-Equipes/Pole-Adaptation-Bacterienne-et-Pathogenese/Genetique-Microbienne-et-Environnement-Didier-Lereclus" target="_blank" rel="noreferrer noopener">laboratoire GME</a> de l'INRA.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-2">
+              <span class="label label-primary">2012</span>
+            </div>
+            <div class="col-sm-10">
+              <h3>Master de biologie moléculaire et cellulaire</h3>
+              <p>Décerné par l'<a href="http://www.master.bmc.sorbonne-universite.fr/fr/index.html" target="_blank" rel="noreferrer noopener">université Pierre et Marie Curie Paris VI</a>.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-2">
+              <span class="label label-primary">2010</span>
+            </div>
+            <div class="col-sm-10">
+              <h3>Licence de microbiologie</h3>
+              <p>Décerné par l'<a href="http://offre-de-formations.univ-lyon1.fr/parcours-3/microbiologie.html" target="_blank" rel="noreferrer noopener">université Claude Bernard Lyon I</a>.</p>
+            </div>
+          </div>
+        </section>
+      </section> <!-- /education -->
+
+      <section class="row section-portfolio">
+        <a id="portfolio" class="anchor"></a>
+        <aside class="col-sm-3">
+          <h2>Portfolio</h2>
+        </aside>
+        <section class="col-sm-9 left-border">
+          <div class="row">
+            <div class="col-sm-6 col-md-4">
+              <div class="thumbnail">
+                <img src="img/portfolio-visitit.png" alt="VisitIT">
+                <div class="caption">
+                  <h3>VisitIT</h3>
+                  <p>Service de création de visites virtuelles à 360° en ligne.<br /><br /></p>
+                  <p>
+                    <span class="label label-default">Full-stack</span>
+                    <span class="label label-default">Web app</span>
+                    <span class="label label-default">JS asynchrone</span>
+                    <span class="label label-default">Drupal 8</span>
+                  </p>
+                  <p><a href="#" data-toggle="modal" data-target="#modal-experience-2">Détails</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+              <div class="thumbnail">
+                <img src="img/portfolio-meteo.png" alt="Météo@home">
+                <div class="caption">
+                  <h3>Météo@home</h3>
+                  <p>Station météo connectée personnelle DIY.<br /><br /></p>
+                  <p>
+                    <span class="label label-default">Full-stack</span>
+                    <span class="label label-default">Web app</span>
+                    <span class="label label-default">IoT</span>
+                    <span class="label label-default">Auto-hébergement</span>
+                    <span class="label label-default">SQL</span>
+                  </p>
+                  <p><a href="#" data-toggle="modal" data-target="#modal-portfolio-4">Détails</a></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="clearfix visible-xs-block visible-sm-block"></div>
+
+            <div class="col-sm-6 col-md-4">
+              <div class="thumbnail">
+                <img src="img/portfolio-vitrines.png" alt="Sites vitrines">
+                <div class="caption">
+                  <h3>Sites vitrines</h3>
+                  <p>Exemples de réalisations de sites simples en HTML/CSS/JS.<br /><br /></p>
+                  <p>
+                    <br /><br />
+                  </p>
+                  <p><a href="#" data-toggle="modal" data-target="#modal-portfolio-3">Détails</a></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="clearfix visible-md-block visible-lg-block"></div>
+
+            <div class="col-sm-6 col-md-4">
+              <div class="thumbnail">
+                <img src="img/portfolio-blastats.png" alt="BLASTats">
+                <div class="caption">
+                  <h3>BLASTats</h3>
+                  <p>Estimation de la distribution d'une protéine donnée au sein des souches d'espèces d'intérêt.</p>
+                  <p>
+                    <span class="label label-default">Web scraping</span>
+                    <span class="label label-default">Data processing</span>
+                    <span class="label label-default">GUI</span>
+                  </p>
+                  <p><a href="#" data-toggle="modal" data-target="#modal-portfolio-2">Détails</a></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="clearfix visible-xs-block visible-sm-block"></div>
+
+            <div class="col-sm-6 col-md-4">
+              <div class="thumbnail">
+                <img src="img/portfolio-eggnoggenome.png" alt="EggnogGenome">
+                <div class="caption">
+                  <h3>EggnogGenome</h3>
+                  <p>Annotation fonctionnelle des CDS d'un génome avec la base de données Eggnog.</p>
+                  <p>
+                    <span class="label label-default">Data processing</span>
+                    <span class="label label-default">CLI</span>
+                    <br /><br />
+                  </p>
+                  <p><a href="#" data-toggle="modal" data-target="#modal-portfolio-1">Détails</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section> <!-- /portfolio -->
+
+      <section class="row section-contact">
+        <a id="contact" class="anchor"></a>
+        <aside class="col-sm-3">
+          <h2>Contact</h2>
+        </aside>
+        <section class="col-sm-9 left-border">
+          <form id="contactForm" class="col-sm-8 col-md-6 col-lg-4">
+            <input id="csrfToken" name="csrfToken" type="hidden" value="">
+            <div class="form-group">
+              <label for="who">Nom</label>
+              <input id="who" name="who" class="form-control" type="text" required>
+            </div>
+            <div class="form-group">
+              <label for="mail">Adresse e-mail</label>
+              <input id="mail" name="mail" class="form-control" type="email" required>
+            </div>
+            <div class="form-group">
+              <label for="msg">Message</label>
+              <textarea id="msg" name="msg" class="form-control" rows="8" required></textarea>
+            </div>
+            <div class="form-group pull-right">
+              <button id="sendMsg" name="sendMsg" class="btn btn-primary" type="submit">Envoyer <span class="glyphicon glyphicon-send"></span></button>
+            </div>
+          </form>
+        </section>
+      </section> <!-- /contact -->
+
+    </section> <!-- /content -->
+  </div> <!-- /wrapper -->
+
+  <!-- Modals -->
+  <div id="modal-portfolio-4" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modal-portfolio-4-label">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fermer"><span aria-hidden="true">&times;</span></button>
+          <h4 id="modal-portfolio-4-label" class="modal-title">Météo@home</h4>
+        </div>
+        <div class="modal-body">
+          <p>
+            Météo@home est un projet auto-éducatif que j'ai lancé avec la volonté
+            de tout faire de A à Z, autant que possible.
+          </p>
+          <p>
+            J'ai donc commencé par assembler un circuit
+            minimal comprenant 2 sondes de température sur un Raspberry Pi, puis
+            ajouté une webcam. J'ai ensuite développé le code serveur
+            permettant la lecture et le stockage des mesures, ainsi que l'automatisation
+            de screenshots à partir de la webcam. Puis j'ai développé un back-end
+            avec <a href="http://flask.pocoo.org/" target="_blank" rel="noreferrer noopener">Flask</a>
+            (le micro-framework Python), propulsant un front-end classique en
+            HTML/CSS/JS, avec middle-office protégé par mot de passe.
+          </p>
+          <p>
+            Ce projet est toujours en développement, et de nombreux ajouts sont
+            prévus : ajout de capteurs, développement d'une API REST pour communiquer
+            les données brutes à une appli mobile, tentative de prévisions météo
+            à l'aide de modèles de machine learning, <em>etc</em>.
+          </p>
+          <!-- <p>
+            L'application est accessible <a href="https://gelis.ch/meteo/" target="_blank" rel="noreferrer noopener">ici</a>.
+          </p> -->
+          <p>
+            <br />
+            <span class="label label-default">Full stack</span>
+            <span class="label label-default">Web app</span>
+            <span class="label label-default">IoT</span>
+            <span class="label label-default">Flask</span>
+            <span class="label label-default">Auto-hébergement</span>
+            <span class="label label-default">SQL</span>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default close-modal" data-dismiss="modal">Fermer</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="modal-portfolio-3" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modal-portfolio-3-label">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fermer"><span aria-hidden="true">&times;</span></button>
+          <h4 id="modal-portfolio-3-label" class="modal-title">Sites vitrines</h4>
+        </div>
+        <div class="modal-body">
+          <div class="row vertical-center">
+            <div class="col-xs-12 col-sm-4">
+              <img class="img-responsive img-rounded center-block" src="img/portfolio-vitrines.png" alt="CV">
+            </div>
+            <div class="col-xs-12 col-sm-8">
+              Le CV que vous êtes en train de lire est développé en HTML5/CSS3/ES6.
+              Il se base sur la librairie front Bootstrap, mais n'utilise aucun
+              autre framework, ce qui le rend léger et rapide (voir le score
+              <a href="https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fcv.gelis.ch&tab=desktop" target="_blank" rel="noreferrer noopener">Google PageSpeed Insights</a>)
+              tout en restant responsive et aux normes de design actuelles. Il
+              utilise également 2 scripts PHP appelés de façon asynchrone par le
+              code JS pour gérer le formulaire de contact (sécurisé par jeton CSRF).
+            </div>
+          </div>
+          <div class="row vertical-center">
+            <div class="col-xs-12 col-sm-4">
+              <a href="https://www.jeanvoine.net" target="_blank" rel="noreferrer noopener"><img class="img-responsive img-rounded center-block" src="img/portfolio-vitrines-drjeanvoine.png" alt="Site web du Dr. Jeanvoine"></a>
+            </div>
+            <div class="col-xs-12 col-sm-8">
+              <a href="https://www.jeanvoine.net" target="_blank" rel="noreferrer noopener">Le site du Dr. Jeanvoine</a>
+              est également développé en HTML5/CSS3/ES6, sur base d'un template
+              fourni (lui-même basé sur Bootstrap).
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default close-modal" data-dismiss="modal">Fermer</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="modal-portfolio-2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modal-portfolio-2-label">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fermer"><span aria-hidden="true">&times;</span></button>
+          <h4 id="modal-portfolio-2-label" class="modal-title">BLASTats</h4>
+        </div>
+        <div class="modal-body">
+          <p>
+            J'ai développé BLASTats dans le cadre de mon travail de thèse,
+            dans le but d'automatiser un processus long, fastidieux et récurrent
+            au laboratoire. Ce processus a pour but de répondre à la question :
+            « Comment ma protéine <em>P</em> d'intérêt est distribuée au sein
+            des souches de telle et telle espèces ? ».
+          </p>
+          <p>
+            BLAStats propose donc, à travers une interface graphique simple,
+            d'automatiser toutes les étapes du processus : interrogation des
+            bases de données spécialisées, alignement des séquences primaires
+            des protéines récupérées dans ces bases de données, calcul de
+            statistiques de répartition dans les souches des espèces d'intérêt,
+            et génération d'un arbre phylogénétique inférant l'évolution de
+            la protéine d'intérêt dans les souches retrouvées.
+          </p>
+          <p>
+            BLASTats est écrit en 600+ lignes de Python 3, et son interface
+            graphique repose sur GTK+.
+          </p>
+          <p>
+            Dépôt public du projet sur <a href="https://github.com/seb-ksl/BLASTats" target="_blank" rel="noreferrer noopener">GitHub</a>.
+          </p>
+          <p>
+            <br />
+            <span class="label label-default">Python</span>
+            <span class="label label-default">GUI (GTK+)</span>
+            <span class="label label-default">Data processing</span>
+            <span class="label label-default">Web scraping</span>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default close-modal" data-dismiss="modal">Fermer</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="modal-portfolio-1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modal-portfolio-1-label">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fermer"><span aria-hidden="true">&times;</span></button>
+          <h4 id="modal-portfolio-1-label" class="modal-title">EggnogGenome</h4>
+        </div>
+        <div class="modal-body">
+          <p>
+            J'ai développé EggnogGenome dans le cadre de mon travail de thèse,
+            afin de réannoter « proprement » les fonctions potentielles des gènes
+            du génome de la bactérie <em>Bacillus thuringiensis</em>.
+          </p>
+          <p>
+            Il s'agit d'un script Python 3 de 200+ lignes abondamment commenté
+            et qui s'intègre dans un workflow bio-informatique plus large. Le
+            script propose une interface en ligne de commande avec lecture
+            d'arguments obligatoires et facultatifs, et gestion des exceptions.
+          </p>
+          <p>
+            Dépôt public du projet sur <a href="https://github.com/seb-ksl/EggnogGenome" target="_blank" rel="noreferrer noopener">GitHub</a>.
+          </p>
+          <p>
+            <br />
+            <span class="label label-default">Python</span>
+            <span class="label label-default">Data processing</span>
+            <span class="label label-default">CLI</span>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default close-modal" data-dismiss="modal">Fermer</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="modal-experience-3-1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modal-experience-3-1-label">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fermer"><span aria-hidden="true">&times;</span></button>
+          <h4 id="modal-experience-3-1-label" class="modal-title">Développeur, KSD</h4>
+        </div>
+        <div class="modal-body">
+          <p>
+            Ma tâche principale au sein de KSD consiste à participer au développement d'applications Django complexes permettant
+            la modernisation du cœur de métier de KSD (la caisse enregistreuse), la création de services associés, et l'automatisation
+            de processus internes.
+          </p>
+          <p>
+            Exemples d'applications Django :
+            <ul>
+              <li>
+                <strong>KSDManager</strong> (22 kloc) :
+                services en ligne associés à la caisse (programmation de la base de données et analyses des ventes).
+              </li>
+              <li><strong>myKSD</strong> (6 kloc) : service de gestion de badges, d'affluence, de clients, <em>etc.</em> dédié à la restauration collective.</li>
+              <li><strong>KSDCrm</strong> (10 kloc) : CRM/ERP maison.</li>
+              <li><strong>KSDTech</strong> (6 kloc) : outil de gestion de licences KSD matérielles et logicielles.</li>
+              <li><strong>Changelogger</strong> (1 kloc) : outil de création/visualisation de changelogs.</li>
+            </ul>
+          </p>
+          <p>
+            <br />
+            <span class="label label-default">Django</span>
+            <span class="label label-default">Linux</span>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default close-modal" data-dismiss="modal">Fermer</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="modal-experience-3-2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modal-experience-3-2-label">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fermer"><span aria-hidden="true">&times;</span></button>
+          <h4 id="modal-experience-3-2-label" class="modal-title">Développeur, KSD</h4>
+        </div>
+        <div class="modal-body">
+          <p>
+            Certains de mes projets m'ont amenés à interagir de près avec le matériel, et à développer des
+            interfaces embarquées.
+          </p>
+          <p>
+            J'ai, par exemple, pu développer un produit embarqué interfaçant des
+            distributeurs de boissons avec notre réseau de caisses enregistreuses et des lecteurs de badge,
+            permettant à la clientelle de régler des consommations avec un badge personnel d'entreprise.
+          </p>
+          <p>
+            <br />
+            <span class="label label-default">Raspberry Pi</span>
+            <span class="label label-default">Embarqué</span>
+            <span class="label label-default">Python</span>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default close-modal" data-dismiss="modal">Fermer</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="modal-experience-3-3" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modal-experience-3-3-label">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fermer"><span aria-hidden="true">&times;</span></button>
+          <h4 id="modal-experience-3-3-label" class="modal-title">Développeur, KSD</h4>
+        </div>
+        <div class="modal-body">
+          <p>
+            J'ai l'opportunité d'exercer, en plus du rôle de pur développeur, un jeu de tâches plus orientées
+            vers l'administration système et réseau. J'ai ainsi pu mettre en place et/ou améliorer les flux suivants :
+            <ul>
+              <li>Modernisation et sécurisation du flux de compilation et de déploiement des livrables.</li>
+              <li>Mise en place et modernisation de l'infrastructure de tests et de documentation.</li>
+              <li>Mise en place de nombreux outils de collaboration, tant entre développeurs qu'entre les développeurs et les autres services de l'entreprise.</li>
+            </ul>
+          </p>
+          <p>
+            J'ai également la charge d'installer et maintenir nos serveurs internes (développement) et externes (pré-production et production).
+            J'ai, pour cela, installé plusieurs outils de monitoring et d'automatisation, cela afin de faciliter
+            la maintenance quotidienne de nos serveurs GNU/Linux Debian.
+          </p>
+          <p>
+            <br />
+            <span class="label label-default">Linux</span>
+            <span class="label label-default">Cython</span>
+            <span class="label label-default">Git/Gitea</span>
+            <span class="label label-default">Jenkins</span>
+            <span class="label label-default">Nagios</span>
+            <span class="label label-default">Ansible</span>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default close-modal" data-dismiss="modal">Fermer</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="modal-experience-2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modal-experience-2-label">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fermer"><span aria-hidden="true">&times;</span></button>
+          <h4 id="modal-experience-2-label" class="modal-title">Développeur web full-stack, VisitIT</h4>
+        </div>
+        <div class="modal-body">
+          <p>
+            J'ai eu l'opportunité de développer, à partir de zéro, un service
+            en ligne de création de visites virtuelles à 360° pour les professionnels
+            de l'immobilier. Le service est accessible <a href="https://app.visitit.net" target="_blank" rel="noreferrer noopener">ici</a>
+            (uniquement aux professionnels inscrits), et le site vitrine
+            <a href="https://visitit.fr" target="_blank" rel="noreferrer noopener">ici</a>.
+          </p>
+          <p>
+            Le service repose sur une architecture modulaire : un « coeur » de
+            service propulsé par Drupal 8, et une application web servant de
+            back-office clients.
+          </p>
+          <p>
+            J'ai développé un module pour Drupal 8 implémentant toute la logique
+            métier. Drupal est ici dépouillé de toute interface pour être
+            utilisé de façon totalement « headless » à travers son API REST.
+          </p>
+          <p>
+            J'ai développé l'application web en HTML5/CSS3/ES6, sans framework.
+            Cette interface propose des contrôles de haut-niveau au client, dont
+            les données sont ensuite extraites et
+            traduites en requêtes simples, qui sont à leur tour envoyées de façon
+            asynchrone à l'API REST de Drupal 8.
+          </p>
+          <p>
+            J'ai également assuré la mise en place et le déploiement initial
+            de la totalité du service (CMS + application web) sur un serveur
+            dédié tournant sous Debian stable.
+          </p>
+          <p>
+            <br />
+            <span class="label label-default">Full-stack</span>
+            <span class="label label-default">Web app</span>
+            <span class="label label-default">Drupal 8 headless</span>
+            <span class="label label-default">JS asynchrone</span>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default close-modal" data-dismiss="modal">Fermer</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="modal-experience-1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modal-experience-1-label">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fermer"><span aria-hidden="true">&times;</span></button>
+          <h4 id="modal-experience-1-label" class="modal-title">Doctorat de microbiologie</h4>
+        </div>
+        <div class="modal-body">
+          <p>
+            J'ai choisi de consacrer la seconde moitié de ma thèse de microbiologie
+            à l'apprentissage et la pratique de la bio-informatique. Cela s'est
+            concrétisé à travers diverses réalisations :
+            <ul>
+              <li>
+                La mise en place de workflows de traitement de données massives
+                (séquençage de transcriptomes générant des données brutes > 6 Go).
+                Cela impliquait majoritairement l'écriture de scripts Shell et
+                l'utilisation d'un cluster de calcul pour lancer des tâches.
+              </li>
+              <li>
+                L'écriture de scripts (en Python et R) pour analyser les données
+                traitées.
+              </li>
+              <li>
+                L'écriture de programmes plus complets (avec interface graphique
+                ou ligne de commande) permettant d'automatiser certaines tâches
+                répétitives et intensives, notamment d'interrogation de bases
+                de données spécialisées et de traitement de données.
+              </li>
+            </ul>
+          </p>
+          <p>
+            <br />
+            <span class="label label-default">Data processing</span>
+            <span class="label label-default">Web scraping</span>
+            <span class="label label-default">GUI</span>
+            <span class="label label-default">CLI</span>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default close-modal" data-dismiss="modal">Fermer</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/cv.min.js"></script>
+</body>
+</html>
