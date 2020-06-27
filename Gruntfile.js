@@ -30,7 +30,7 @@ module.exports = function(grunt) {
         separator: ';',
       },
       dist: {
-        src: ['src/vendors/jQuery/jquery-3.2.1.min.js',
+        src: ['src/vendors/jQuery/jquery-3.5.1.min.js',
               'src/vendors/Bootstrap/js/bootstrap.min.js',
               'dist/js/cv.babel.js'
             ],
