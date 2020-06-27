@@ -8,3 +8,5 @@ dist: src
 
 run: dist
 	php -S localhost:8000 -t dist
+
+.PHONY: all clean
