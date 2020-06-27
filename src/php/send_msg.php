@@ -78,7 +78,7 @@ EOD;
     try {
         $ret = $mail->Send();
     } catch (Exception $e) {
-        ret = false; 
+        $ret = false; 
     }
 
     return $ret;
