@@ -62,7 +62,7 @@ function stickyNavbar(enable) {
 function getCSRFToken() {
   let req = $.ajax({
     method: 'GET',
-    url: 'php/csrf_token.php'
+    url: '../php/csrf_token.php'
   });
 
   req.done(function (token) {
@@ -88,7 +88,7 @@ function contactSubmitHandler() {
         formData = $(this).serialize(),
         req = $.ajax({
           method: 'POST',
-          url: 'php/send_msg.php',
+          url: '../php/send_msg.php',
           data: formData
         });
 
